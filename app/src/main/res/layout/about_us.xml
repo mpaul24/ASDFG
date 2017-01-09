@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/darkGrayColor"
+        android:padding="15dp"
+        android:weightSum="5"
+        >
+
+
+        <TextView
+            android:text="MBOX is a music player made according to the Material            Design by Manojit Paul."
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:textColor="?attr/darktextColor"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/google"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="?attr/darktextColor"
+                android:layout_height="match_parent"
+                android:text="Google+"/>
+            <TextView
+                android:id="@+id/facebook"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="?attr/darktextColor"
+                android:layout_height="match_parent"
+                android:text="Facebook"/>
+            <TextView
+                android:id="@+id/github"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:textColor="?attr/darktextColor"
+                android:layout_height="match_parent"
+                android:text="Github"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Report any bug :"
+            android:layout_weight=".5"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+
+            android:textColor="?attr/darktextColor"
+            />
+        <TextView
+            android:id="@+id/bug"
+            android:layout_width="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="here"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

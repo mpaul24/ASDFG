@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Customize your theme here. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#f2f2f2</item>
+        <item name="colorPrimaryDark">#f1f1f1</item>
+        <item name="colorAccent">#efefef</item>
+        <item name="android:divider">#B6B6B6</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1565C0</item>
+        <item name="colorAccent">#D81B60</item>
+        <item name="android:divider">#B6B6B6</item>
+        <item name="darkcolor">#212121</item>
+        <item name="whitetColor">#FFFFFF</item>
+        <item name="darktextColor">#414141</item>
+        <item name="lighttextColor">#ededed</item>
+        <item name="lightGrayColor">#414141</item>
+        <item name="darkGrayColor">#E7E7E7</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme_Dark" parent="AppTheme.Base">
+
+        <item name="colorPrimary">#424242</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#D81B60</item>
+        <item name="android:divider">#B6B6B6</item>
+        <item name="darkcolor">#FFFFFF</item>
+        <item name="whitetColor">#212121</item>
+        <item name="darktextColor">#ededed</item>
+        <item name="lighttextColor">#414141</item>
+        <item name="lightGrayColor">#E7E7E7</item>
+        <item name="darkGrayColor">#414141</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme_Red" parent="AppTheme.Base">
+
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#C62828</item>
+        <item name="colorAccent">#FFEB3B</item>
+        <item name="android:divider">#B6B6B6</item>
+        <item name="darkcolor">#212121</item>
+        <item name="whitetColor">#FFFFFF</item>
+        <item name="darktextColor">#414141</item>
+        <item name="lighttextColor">#ededed</item>
+        <item name="lightGrayColor">#414141</item>
+        <item name="darkGrayColor">#E7E7E7</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme_Purple" parent="AppTheme.Base">
+
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryDark">#6A1B9A</item>
+        <item name="colorAccent">#CDDC39</item>
+        <item name="android:divider">#B6B6B6</item>
+        <item name="darkcolor">#212121</item>
+        <item name="whitetColor">#FFFFFF</item>
+        <item name="darktextColor">#414141</item>
+        <item name="lighttextColor">#ededed</item>
+        <item name="lightGrayColor">#414141</item>
+        <item name="darkGrayColor">#E7E7E7</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_Green" parent="AppTheme.Base">
+
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#FF5252</item>
+        <item name="android:divider">#B6B6B6</item>
+        <item name="darkcolor">#212121</item>
+        <item name="whitetColor">#FFFFFF</item>
+        <item name="darktextColor">#414141</item>
+        <item name="lighttextColor">#ededed</item>
+        <item name="lightGrayColor">#414141</item>
+        <item name="darkGrayColor">#E7E7E7</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/favourite"
+            android:icon="@drawable/like_pressed"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about_icon"
+            android:title="About" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/help_icon"
+            android:title="Help and Feedback" />
+        <item
+            android:id="@+id/opensource"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="OpenSource License" />
+    </group>
+
+</menu>

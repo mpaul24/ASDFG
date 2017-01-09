@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.manojit.vitycoders.notify.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Equalizer"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_serch_n"
+        android:title="Menu_Search"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item
+        android:id="@+id/dark"
+        android:title="Dark"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/light"
+        android:title="Light"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/red"
+        android:title="Red"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/purple"
+        android:title="Purple"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/green"
+        android:title="Green"
+        app:showAsAction="never"/>
+
+</menu>
